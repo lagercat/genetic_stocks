@@ -1,0 +1,43 @@
+#This the the canonical lab .gitignore file
+
+#ignore temp files
+*~
+
+#ignore pdf files (just keep source files)
+*.pdf
+
+#ignore junk files from latex output
+*.out
+*.log
+*.aux
+*.dvi
+*.ps
+*.bbl
+*.blg
+
+#ignore junk files from compiling C code
+*.o
+*.a
+emulate
+assemble
+src/bin/*
+!.gitkeep
+
+#ignore junk files from compiling Haskell code
+*.hi
+
+#ignore junk files from compiling Java code
+*.class
+
+#ignore other junk files
+*.backup
+*.kate-swp
+*.swp
+*.snm
+*.vrb
+*.nav
+*.toc
+*.csv
+
+.DS_STORE
+*.dSYM
