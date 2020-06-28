@@ -6,7 +6,7 @@ Note: The repository doesn't contain the actual commit history (which was around
 on the internal Gitlab platform of the College.
 
 ## The Extension
-Our extension is a Genetic Algorithm that optimises hyper parameters of MLP Neural Networks which predict closing prices (but it could be more than that! 🦠 😷). We first have to **train** and find a neural network and then we can **predict**  stock prices of the company we trained for. Our code is designed for the datasets produced by [Yahoo Finance](https://finance.yahoo.com/) which we think is a reliable and open data source. 
+Our extension is a Genetic Algorithm that optimises hyper parameters of MLP Neural Networks which predict closing prices (but it could be more than that! 🦠😷). We first have to **train** and find a neural network and then we can **predict**  stock prices of the company we trained for. Our code is designed for the datasets produced by [Yahoo Finance](https://finance.yahoo.com/) which we think is a reliable and open data source. 
 
 ## Data formatting
 We read the data from the given CSV and then we format it. Our model takes as inputs the data points of the last  `NO_DAYS - 1` days and predicts the next day's closing price. Thus, we batch our data into `NO_ROWS / NO_DAYS`* rows (that is integer division, the remaining rows being discarded), each formatted row containing the following: 
