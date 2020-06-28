@@ -1,15 +1,6 @@
-# ARM_11 Group Project
+# Genetic Stocks
 
-This is our extension for the First Year ARM 11 group project. 
-
-## Running the assembler and the emulator
-We tried to make this as easy as possible so here are the 3 key commands:
-
-The executables produced by make run under the following schemas: 
-
-`emulate <input_file>`
-
-`assemble <input_file> <output_file>`. 
+This is our extension for the First Year ARM 11 group project from Imperial College.
 
 ## The Extension
 Our extension is a Genetic Algorithm that optimises hyper parameters of MLP Neural Networks which predict closing prices (but it could be more than that! 🦠 😷). We first have to **train** and find a neural network and then we can **predict**  stock prices of the company we trained for. Our code is designed for the datasets produced by [Yahoo Finance](https://finance.yahoo.com/) which we think is a reliable and open data source. 
