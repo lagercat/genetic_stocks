@@ -1,6 +1,9 @@
 # Genetic Stocks
 
-This is our extension for the First Year ARM 11 group project from Imperial College.
+This is our extension for the First Year ARM 11 group project from Imperial College. The project had 3 components: an ARM emulator, an ARM assembler and an extension. That is, any substansial C program we wanted to build.
+
+Note: The repository doesn't contain the actual commit history (which was around 750 commits long and included the full project) since the code was developed
+on the internal Gitlab platform of the College.
 
 ## The Extension
 Our extension is a Genetic Algorithm that optimises hyper parameters of MLP Neural Networks which predict closing prices (but it could be more than that! 🦠 😷). We first have to **train** and find a neural network and then we can **predict**  stock prices of the company we trained for. Our code is designed for the datasets produced by [Yahoo Finance](https://finance.yahoo.com/) which we think is a reliable and open data source. 
@@ -37,9 +40,6 @@ and an example of predictions. If you want to run the python script to visualise
 the predictions, you *have* to run predict in test mode. That is, without giving
 it the parameter to the csv dataset (just to the neural net). The parameter
 will default to **misc_csv/data.csv**.
-
-Note that the **libtest** library is a duplicate as we would like our **src** and our **extension**
-to be self contained programs.
 
 ## Authors and acknowledgment
 This project is the result of 3 weeks of (hard) work done by: Alex Usher, Euan Scott-Watson, Sebastian Males and Rob Barr. We **do not** claim authorship
