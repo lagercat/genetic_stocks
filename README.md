@@ -42,7 +42,7 @@ it the parameter to the csv dataset (just to the neural net). The parameter
 will default to **misc_csv/data.csv**.
 
 ## Authors and acknowledgment
-This project is the result of 3 weeks of (hard) work done by: Alex Usher, Euan Scott-Watson, Sebastian Males and Rob Barr. We **do not** claim authorship
+The full project is the result of 3 weeks of (hard) work done by: Alex Usher, Euan Scott-Watson, Sebastian Males and Rob Barr. We **do not** claim authorship
 of the test library which was written by [Duncan White](https://www.doc.ic.ac.uk/~dcw/). We hope you will enjoy our effort.
 
 							   
