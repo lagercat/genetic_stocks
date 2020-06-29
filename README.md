@@ -1,6 +1,6 @@
 # Genetic Stocks
 
-This is our extension for the First Year ARM 11 group project from Imperial College. The project had 3 components: an ARM emulator, an ARM assembler and an extension. That is, any substansial C program we wanted to build.
+This is our extension for the First Year ARM11 group project from Imperial College. The project had 3 components: an ARM emulator, an ARM assembler and an extension. That is, any substansial C program we wanted to build.
 
 Note: The repository doesn't contain the actual commit history (which was around 750 commits long and included the full project) since the code was developed
 on the internal Gitlab platform of the College.
